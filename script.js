@@ -1,11 +1,10 @@
-const dropDown = document.querySelector("#dropDown");
+const dropDowns = document.querySelectorAll(".dropDown");
 
+dropDowns.forEach(dropDown => {
+    
 const btn = dropDown.firstElementChild;
 const list = dropDown.lastElementChild;
 let toggle = false;
-
-console.log(list)
-console.log(btn)
 
 btn.addEventListener("click", (e)=>
 {
@@ -19,7 +18,8 @@ btn.addEventListener("click", (e)=>
     else
     {
         list.setAttribute('class', 'visible');
-        console.log(list.classList)
         toggle = !toggle;
     }
 })
+
+});
