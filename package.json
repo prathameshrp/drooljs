@@ -1,6 +1,6 @@
 {
   "name": "drooljs",
-  "version": "1.0.1.1",
+  "version": "1.0.2",
   "description": "A simple utility module that provides drop down menus",
   "main": "drool.js",
   "scripts": {
