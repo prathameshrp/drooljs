@@ -47,7 +47,7 @@ For e.g.
         </ul>
     </div>
 ```
-[!NOTE]
+>[!NOTE]
 > Make sure your drop-down container have a class name.
 > The drop-down container should contain an element that acts as a button.
 > The drop-down container contains an element that acts as container for drop-down options.
